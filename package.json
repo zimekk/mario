@@ -31,6 +31,6 @@
     "pretty-quick": "^3.1.0"
   },
   "dependencies": {
-    "type-coverage": "^2.14.9"
+    "type-coverage": "^2.15.1"
   }
 }
