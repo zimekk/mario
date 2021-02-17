@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import Scene from "./Scene";
 // import history from "history/browser";
 import useKeyPress from "./hooks/useKeyPress";
 
@@ -151,6 +152,7 @@ export default function App() {
         <Mario position={position} />
       </Board>
       <pre>{JSON.stringify(position, null, 2)}</pre>
+      <Scene />
     </section>
   );
 }
